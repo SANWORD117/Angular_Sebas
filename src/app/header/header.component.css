@@ -1,0 +1,40 @@
+.header-content{
+    display: flex;
+    background-color: #505050;
+    color: azure;
+    position: absolute;
+    border-bottom: 2px solid black;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+
+.header-icon{
+    display: flex;
+    background-color: #59f793;
+    padding: 10px;
+    border-right: 2px solid black;
+    width: 16%;
+}
+
+.header-info{
+    display: flex;
+    color: azure;
+    text-align: center;
+    width: 84%;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-buttons{
+    padding: 20px;
+}
+
+.header-buttons button {
+    font-size: 20px;
+    width: 15vh;
+    height: 50px;
+    margin-inline: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}

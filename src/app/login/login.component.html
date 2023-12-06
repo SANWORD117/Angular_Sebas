@@ -1,0 +1,22 @@
+<div class="login">
+    <div class="custom-form" method="post">
+        <h1>Login</h1>
+        <input
+            type="email"
+            name="email"
+            [(ngModel)]="email"
+            placeholder="Email"
+            required="required"
+        />
+        <input
+            type="password"
+            name="password"
+            [(ngModel)]="password"
+            placeholder="Contraseña"
+            required="required"
+        />
+        <button (click)="NewUser()">Eres nuevo? Registarte</button>
+        <!-- <button type="submit" (click)="getStorage()">Consultar</button> -->
+        <button type="submit" (click)="login()">Logearse</button>
+    </div>
+</div>

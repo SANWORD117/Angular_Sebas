@@ -1,0 +1,32 @@
+<div class="register">
+  <div class="custom-form" method="post">
+    <h1>Registro</h1>
+    <input
+      type="email"
+      name="email"
+      [(ngModel)]="email"
+      placeholder="Email"
+      pattern="[A-Za-z0-9_@]+"
+      required="required"
+    />
+    <input
+      type="password"
+      name="password"
+      [(ngModel)]="password"
+      placeholder="Contraseña"
+      pattern="[A-Za-z0-9]+"
+      required="required"
+    />
+    <input
+      type="password"
+      name="confirmPassword"
+      [(ngModel)]="confirmPassword"
+      placeholder="Repite la contraseña"
+      pattern="[A-Za-z0-9]+"
+      required="required"
+    />
+    <button (click)="UserStatus()">Tienes una Cuenta? Inicia Sesión</button>
+    <!-- <button type="submit" (click)="getStorage()">Consultar</button> -->
+    <button type="submit" (click)="register()">Registar</button>
+  </div>
+</div>

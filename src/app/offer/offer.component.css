@@ -1,0 +1,80 @@
+.content-cards{
+    display: flex;
+    height: 50vh;
+    width: 50vh;
+    margin-top: 20vh;
+    margin-left: 20vh;
+}
+
+.content-cards div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 17px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card1 button{
+    width: 15vh;
+    height: 40px;
+    margin-inline: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #46cc89;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card2 button{
+    width: 15vh;
+    height: 40px;
+    margin-inline: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #46cc89;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card3 button{
+    width: 15vh;
+    height: 40px;
+    margin-inline: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #46cc89;
+}
+
+.card4{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card4 button{
+    width: 15vh;
+    height: 40px;
+    margin-inline: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #46cc89;
+}

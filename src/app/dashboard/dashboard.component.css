@@ -1,0 +1,68 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.sans{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 77vh;
+    padding: 10px;
+    padding-top: 20vh;
+    border-right: 2px solid black;
+}
+
+.sans h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.sans p{
+    font-size: 20px;
+    margin-left: 2vh;
+}
+
+.slider-frame{
+    width: 720px;
+    height: 480px;
+    margin: 50px auto 0;
+    overflow: hidden;
+
+    animation: slide 30s infinite alternate ease-in-out;
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 700%;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0% {margin-left: 0%;}
+    10% {margin-left: 0%;}
+
+    15% {margin-left: -100%;}
+    25% {margin-left: -100%;}
+
+    30% {margin-left: -200%;}
+    40% {margin-left: -200%;}
+
+    55% {margin-left: -300%;}
+    65% {margin-left: -300%;}
+
+    70% {margin-left: -400%;}
+    80% {margin-left: -400%;}
+
+    85% {margin-left: -500%;}
+    90% {margin-left: -500%;}
+}
